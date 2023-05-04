@@ -1,0 +1,19 @@
+<script>
+    //pergunte ao usuário se está chovendo ou não
+    //se estiver chovendo, peça para levar o guarda chuva.
+    // se não estiver chovendo, diga que não precisa levar guarda chuva
+
+    const chuva = prompt("Está chovendo, (responda sim ou não?)").toLowerCase().trim();
+    if (chuva == "sim"){
+        alert(`Leve um guarda chuva.`)
+    }
+    else if (chuva === "não") {
+        alert(`Não precisa levar guarda chuva.`);
+    }
+    else if (chuva === "talvez"){
+        alert(`Por precaução leve um guarda chuva.`);
+    }
+    else {
+        alert(`Opção Inválida: Responde sim ou não`);
+    }
+</script>
